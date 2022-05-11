@@ -1,23 +1,29 @@
 import React from 'react'
-
+import './skills.css'
 export default function Skills() {
     return (
-        <div>
-            <h2>Skill type : Core skills</h2>
+        <div >
+        <div className='skills'>
+            <th>Core skills : </th>
             <li>Problem solving , Competitive coding , Object Oriented Programming , Database Management</li>
+            <br/>
 
-            <h2>Skill type : Programming Languages</h2>
+            <th>Programming Languages : </th>
             <li>C , C++ , Python </li>
+            <br/>
 
-            <h2>Skill type : Software Development</h2>
+            <th>Software Development : </th>
             <li>MERN Stack ( Mongodb, Express , React , Nodejs) , Firebase, React-Native</li>
+            <br/>
 
-            <h2>Skill type : Database </h2>
+            <th>Database : </th>
             <li>MySQL , Mongodb , SQLite</li>
+            <br/>
 
-            <h2>Skill type : Tools</h2>
+            <th>Skill type : Tools</th>
             <li>Git , Github , VS Code , Sublime txt </li>
 
+        </div>
         </div>
     )
 }

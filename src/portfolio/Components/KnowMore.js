@@ -25,15 +25,15 @@ export default function KnowMore() {
     }
     return (
         <div>
-            <div class="navbar">
-                <a class={isAbout ? "active" : null} onClick={() => switchTo(setIsAbout)}><i class="fa fa-fw fa-home"></i> Home</a>
-                <a class={isExperience ? "active" : null} onClick={() => switchTo(setIsExperience)}><i class="fa fa-fw fa-briefcase"></i> Work experince</a>
-                <a class={isSkills ? "active" : null} onClick={() => switchTo(setIsSkills)}><i class="fa fa-fw fa-code"></i> Skills </a>
-                <a class={isProjects ? "active" : null} onClick={() => switchTo(setIsProjects)}><i class="fa fa-fw fa-tasks"></i> Projects </a>
-                <a class={isEducation ? "active" : null} onClick={() => switchTo(setIsEducation)}><i class="fa fa-fw fa-graduation-cap"></i> Education </a>
-                <a class={isAchievements ? "active" : null} onClick={() => switchTo(setIsAchievements)}><i class="fa fa-fw fa-trophy"></i> Achievements </a>
-                <a class={isContact ? "active" : null} onClick={() => switchTo(setIsContact)}><i class="fa fa-fw fa-envelope"></i> Contact</a>
-                <a class={isLogin ? "active" : null} onClick={() => switchTo(setIsLogin)}><i class="fa fa-fw fa-user"></i> Login</a>
+            <div className="navbar">
+                <a className={isAbout ? "active" : null} onClick={() => switchTo(setIsAbout)}><i class="fa fa-fw fa-home"></i> Home</a>
+                <a className={isExperience ? "active" : null} onClick={() => switchTo(setIsExperience)}><i class="fa fa-fw fa-briefcase"></i> Work experince</a>
+                <a className={isSkills ? "active" : null} onClick={() => switchTo(setIsSkills)}><i class="fa fa-fw fa-code"></i> Skills </a>
+                <a className={isProjects ? "active" : null} onClick={() => switchTo(setIsProjects)}><i class="fa fa-fw fa-tasks"></i> Projects </a>
+                <a className={isEducation ? "active" : null} onClick={() => switchTo(setIsEducation)}><i class="fa fa-fw fa-graduation-cap"></i> Education </a>
+                <a className={isAchievements ? "active" : null} onClick={() => switchTo(setIsAchievements)}><i class="fa fa-fw fa-trophy"></i> Achievements </a>
+                <a className={isContact ? "active" : null} onClick={() => switchTo(setIsContact)}><i class="fa fa-fw fa-envelope"></i> Contact</a>
+                {/* <a className={isLogin ? "active" : null} onClick={() => switchTo(setIsLogin)}><i class="fa fa-fw fa-user"></i> Login</a> */}
             </div>
 
             <div>

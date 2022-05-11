@@ -6,14 +6,36 @@
   height: 40vmin;
   pointer-events: none;
 }
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6LKwmNJN_7i4ERYlCfNIhOnt9sh2DoWXBExJveZcz0C0KgegD-b0SCwSxOHjka_5jWcY&usqp=CAU');
+  /* background-repeat: no-repeat; */
+}
+button{
+  background-color: #282c34;
+  color:antiquewhite;
+  border:none;
+  outline:none;
+  border-radius:10px;
+  padding:10px;
+  font-size:calc(0.75em + 1vh);
+  cursor:pointer;
+}
+li{
+  font-family: 'Roboto Slab', serif;
+  font-size:calc(1em + 1vh);
+  overflow:auto;
+}
 a{
   cursor : pointer
 }
 .navbar {
+  font-family: 'Roboto Slab', serif;
   width: 100%;
   background-color: #555;
   overflow: auto;
+  font-size: calc(1em + 1vw);
+  /* padding:10px; */
+  /* height:7.5vh; */
 }
 
 .navbar a {
@@ -21,7 +43,8 @@ a{
   padding: 12px;
   color: white;
   text-decoration: none;
-  font-size: 2.5vh;
+  font-size: calc(1em + 1vw);
+  margin:1%;
 }
 
 .navbar a:hover {

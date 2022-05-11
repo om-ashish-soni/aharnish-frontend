@@ -1,17 +1,25 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
-export default function Intro({switchToKnowMore}) {
+import './intro.css'
+import { Container ,Button} from 'react-bootstrap'
+export default function Intro({ switchToKnowMore }) {
     return (
-        <div>
+        <div className='intro'>
             <Container>
                 <div >
-                    <div>
-                        <div >Hi 👋, I'm <span>Om Ashish Soni</span></div>
-                        <div > Competitive Programmer & Software Developer 😀</div>
-                        <div><button onClick={switchToKnowMore}>know more</button></div>
+                    <div >
+                        <div className="typewriter">
+                            Hi 👋, I'm <span>Om Ashish Soni</span>  
+                        </div>
+                        <br/>
+                        <li className='lifront'>Competitive Programmer</li>
+                        <br/>
+                        <li className='lifront'>Software Developer 😀</li>
+                        <br/>
+                        
                     </div>
+                    <Button variant="primary" className="m-3" onClick={switchToKnowMore}>know more</Button>
                 </div>
-            </Container>
-        </div>
+            </Container >
+        </div >
     )
 }

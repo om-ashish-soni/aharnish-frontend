@@ -1,0 +1,12 @@
+.contact-site{
+    font-size: calc(1em + 1vw);
+}
+.contact-link{
+    font-size: calc(0.75em + 1vw);
+}
+.contact-section{
+    text-align: left;
+    justify-content: left;
+    margin:4%;
+
+}

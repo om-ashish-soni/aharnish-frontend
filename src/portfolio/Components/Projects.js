@@ -2,11 +2,16 @@ import React from 'react'
 
 export default function Projects() {
     return (
-        <div>
-            <h2>Project Name : Amazon clone web app</h2>
+        <div className='leftAlign'>
+        <div >
+            <h2>Amazon clone web app</h2>
+            <li>
+                <td><a href="https://github.com/om-ashish-soni/amazon-clone-by-om-soni" target="_blank">source</a></td>
+                <td>&nbsp;</td>
+                <td><a href="https://youtu.be/3xMkHLV5E1s" target="_blank">demo</a></td>
+            </li>
             <li>techs : MERN Stack , Mongodb , React , Nodejs</li>
             <p>
-                desc:
 
                 <li>User can buy the product.</li>
 
@@ -21,11 +26,16 @@ export default function Projects() {
                 <li>All above functionalities is provided by web app</li>
             </p>
 
-            <h2>Project Name : Youtube clone web app</h2>
+            <br/>
+
+            <h2>Youtube clone web app</h2>
+            <li>
+                <td><a href="https://github.com/om-ashish-soni/youtube-clone-by-om-soni" target="_blank">source</a></td>
+                <td>&nbsp;</td>
+                <td><a href="https://youtu.be/FrvJeZ_gXOg" target="_blank">demo</a></td>
+            </li>
             <li>techs : MERN Stack , Mongodb , React , Nodejs</li>
             <p>
-                desc:
-
                 <li>Feed consists of the video list
 
                     Each video in feed contains a minimized view of video
@@ -38,11 +48,16 @@ export default function Projects() {
                 <li>All above functionalities is provided by web app</li>
             </p>
 
+            <br/>
 
-            <h2>Project Name : Instagram clone web app</h2>
+            <h2>Instagram clone web app</h2>
+            <li>
+                <td><a href="https://github.com/om-ashish-soni/instagram_clone" target="_blank">source</a></td>
+                <td>&nbsp;</td>
+                <td><a href="https://youtu.be/QXb37HWLpLk" target="_blank">demo</a></td>
+            </li>
             <li>techs : MERN Stack , Mongodb , React , Nodejs</li>
             <p>
-                desc:
 
                 <li>In feed user will see the posts of his/her followers
 
@@ -61,6 +76,7 @@ export default function Projects() {
 
                 <li>All above functionalities is provided by web app</li>
             </p>
+        </div>
         </div>
     )
 }
